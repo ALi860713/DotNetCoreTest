@@ -51,6 +51,7 @@ namespace NetCoreTest.Controllers
                 {
                     try
                     {
+                        var test2 = "";
                         string FooUrl = $"http://vulcanwebapi.azurewebsites.net/api/values";
                         HttpResponseMessage response = null;
                         
